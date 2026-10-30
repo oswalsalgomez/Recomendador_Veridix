@@ -1,0 +1,594 @@
+{
+ "producto": [
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10",
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Alta"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "Mas de 10"
+     ]
+    }
+   ],
+   "recomendacion": "Integracion API",
+   "n": 29,
+   "probabilidades": {
+    "Integracion API": 0.759,
+    "Panel de monitoreo": 0.103,
+    "Reporte puntual": 0.138
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10",
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Alta"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10"
+     ]
+    }
+   ],
+   "recomendacion": "Panel de monitoreo",
+   "n": 35,
+   "probabilidades": {
+    "Integracion API": 0.2,
+    "Panel de monitoreo": 0.771,
+    "Reporte puntual": 0.029
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10",
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Baja",
+      "Media"
+     ]
+    }
+   ],
+   "recomendacion": "Panel de monitoreo",
+   "n": 148,
+   "probabilidades": {
+    "Integracion API": 0.081,
+    "Panel de monitoreo": 0.797,
+    "Reporte puntual": 0.122
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10",
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Ocasional"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Alta"
+     ]
+    }
+   ],
+   "recomendacion": "Integracion API",
+   "n": 19,
+   "probabilidades": {
+    "Integracion API": 0.842,
+    "Panel de monitoreo": 0.105,
+    "Reporte puntual": 0.053
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10",
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Ocasional"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Baja",
+      "Media"
+     ]
+    }
+   ],
+   "recomendacion": "Reporte puntual",
+   "n": 14,
+   "probabilidades": {
+    "Integracion API": 0.214,
+    "Panel de monitoreo": 0.214,
+    "Reporte puntual": 0.571
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10",
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Ocasional"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "2 a 10"
+     ]
+    }
+   ],
+   "recomendacion": "Reporte puntual",
+   "n": 68,
+   "probabilidades": {
+    "Integracion API": 0.118,
+    "Panel de monitoreo": 0.191,
+    "Reporte puntual": 0.691
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "1"
+     ]
+    }
+   ],
+   "recomendacion": "Reporte puntual",
+   "n": 137,
+   "probabilidades": {
+    "Integracion API": 0.109,
+    "Panel de monitoreo": 0.182,
+    "Reporte puntual": 0.708
+   }
+  }
+ ],
+ "comunicacion": [
+  {
+   "condiciones": [
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana",
+      "Pequena"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Alta",
+      "Media"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana"
+     ]
+    }
+   ],
+   "recomendacion": "Contenido experto",
+   "n": 138,
+   "probabilidades": {
+    "Contenido experto": 0.783,
+    "Email y gremios": 0.109,
+    "Venta consultiva": 0.109
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana",
+      "Pequena"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Alta",
+      "Media"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Pequena"
+     ]
+    },
+    {
+     "variable": "tipo_cliente",
+     "valores": [
+      "Firma de abogados",
+      "Fondo de inversion"
+     ]
+    }
+   ],
+   "recomendacion": "Contenido experto",
+   "n": 39,
+   "probabilidades": {
+    "Contenido experto": 0.667,
+    "Email y gremios": 0.205,
+    "Venta consultiva": 0.128
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana",
+      "Pequena"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Alta",
+      "Media"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Pequena"
+     ]
+    },
+    {
+     "variable": "tipo_cliente",
+     "valores": [
+      "Aseguradora",
+      "Hidrocarburos"
+     ]
+    }
+   ],
+   "recomendacion": "Email y gremios",
+   "n": 30,
+   "probabilidades": {
+    "Contenido experto": 0.1,
+    "Email y gremios": 0.733,
+    "Venta consultiva": 0.167
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana",
+      "Pequena"
+     ]
+    },
+    {
+     "variable": "madurez_digital",
+     "valores": [
+      "Baja"
+     ]
+    }
+   ],
+   "recomendacion": "Email y gremios",
+   "n": 83,
+   "probabilidades": {
+    "Contenido experto": 0.157,
+    "Email y gremios": 0.771,
+    "Venta consultiva": 0.072
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "tamano",
+     "valores": [
+      "Grande"
+     ]
+    }
+   ],
+   "recomendacion": "Venta consultiva",
+   "n": 160,
+   "probabilidades": {
+    "Contenido experto": 0.106,
+    "Email y gremios": 0.162,
+    "Venta consultiva": 0.731
+   }
+  }
+ ],
+ "precio": [
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Ocasional"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Grande"
+     ]
+    }
+   ],
+   "recomendacion": "Licencia corporativa",
+   "n": 18,
+   "probabilidades": {
+    "Licencia corporativa": 0.778,
+    "Pago por consulta": 0.222,
+    "Suscripcion": 0
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Ocasional"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "Mas de 10"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana",
+      "Pequena"
+     ]
+    }
+   ],
+   "recomendacion": "Pago por consulta",
+   "n": 15,
+   "probabilidades": {
+    "Licencia corporativa": 0.067,
+    "Pago por consulta": 0.8,
+    "Suscripcion": 0.133
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Ocasional"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "1",
+      "2 a 10"
+     ]
+    }
+   ],
+   "recomendacion": "Pago por consulta",
+   "n": 141,
+   "probabilidades": {
+    "Licencia corporativa": 0.106,
+    "Pago por consulta": 0.801,
+    "Suscripcion": 0.092
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Grande"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "Mas de 10"
+     ]
+    }
+   ],
+   "recomendacion": "Licencia corporativa",
+   "n": 48,
+   "probabilidades": {
+    "Licencia corporativa": 0.708,
+    "Pago por consulta": 0.125,
+    "Suscripcion": 0.167
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Grande"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "1",
+      "2 a 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Semanal o diaria"
+     ]
+    }
+   ],
+   "recomendacion": "Licencia corporativa",
+   "n": 18,
+   "probabilidades": {
+    "Licencia corporativa": 0.667,
+    "Pago por consulta": 0.111,
+    "Suscripcion": 0.222
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Grande"
+     ]
+    },
+    {
+     "variable": "num_empresas",
+     "valores": [
+      "1",
+      "2 a 10"
+     ]
+    },
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual"
+     ]
+    }
+   ],
+   "recomendacion": "Suscripcion",
+   "n": 30,
+   "probabilidades": {
+    "Licencia corporativa": 0.167,
+    "Pago por consulta": 0.1,
+    "Suscripcion": 0.733
+   }
+  },
+  {
+   "condiciones": [
+    {
+     "variable": "frecuencia",
+     "valores": [
+      "Mensual",
+      "Semanal o diaria"
+     ]
+    },
+    {
+     "variable": "tamano",
+     "valores": [
+      "Mediana",
+      "Pequena"
+     ]
+    }
+   ],
+   "recomendacion": "Suscripcion",
+   "n": 180,
+   "probabilidades": {
+    "Licencia corporativa": 0.111,
+    "Pago por consulta": 0.106,
+    "Suscripcion": 0.783
+   }
+  }
+ ]
+}

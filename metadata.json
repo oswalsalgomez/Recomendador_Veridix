@@ -1,0 +1,6 @@
+{
+  "name": "Veridix · Recomendador comercial",
+  "description": "Herramienta de recomendación comercial para inteligencia sancionatoria ambiental (ANLA) con árboles de decisión (rpart).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
